@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+* { font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif; }
+html,body,#root { min-height: 100%; }
+body { background: #fdf8ef; }
+button, a { cursor: pointer; }
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
+}
+:focus-visible { outline: 2px solid #f59e0b; outline-offset: 2px; }
